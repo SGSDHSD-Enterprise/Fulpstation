@@ -131,3 +131,6 @@
 
 /obj/item/disk/nanite_program/stun
 	program_type = /datum/nanite_program/stun
+
+/obj/item/disk/nanite_program/diaghud
+	program_type = /datum/nanite_program/diaghud

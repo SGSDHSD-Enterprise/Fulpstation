@@ -131,7 +131,7 @@
 
 /datum/nanite_program/diaghud/enable_passive_effect()
 	. = ..()
-		ADD_TRAIT(host_mob, TRAIT_DIAGNOSTIC_HUD, "nanites")
+	ADD_TRAIT(host_mob, TRAIT_DIAGNOSTIC_HUD, "nanites")
 
 /datum/nanite_program/diaghud/disable_passive_effect()
 	. = ..()
