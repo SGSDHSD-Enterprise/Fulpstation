@@ -261,7 +261,7 @@
 	/datum/nanite_program/diaghud
 	name = "Integrated Diagnostics HUD"
 	desc = "The nanites scan nearby robots and connect to the user's optical nerve, giving them a diagnostic HUD while active."
-	id = "diagnostic_hud_nanites"
+	id = "diaghud_nanites"
 	program_type = /datum/nanite_program/diaghud
 	category = list("Augmentation Nanites")
 
