@@ -122,17 +122,3 @@
 	. = ..()
 	REMOVE_TRAIT(host_mob, TRAIT_MINDSHIELD, "nanites")
 	host_mob.sec_hud_set_implants()
-
-	/datum/nanite_program/diaghud
-	name = "Integrated Diagnostics HUD"
-	desc = "The nanites scan nearby robots and connect to the user's optical nerve, giving them a diagnostic HUD while active."
-	use_rate = 0.25
-	rogue_types = list(/datum/nanite_program/nerve_decay)
-
-/datum/nanite_program/diaghud/enable_passive_effect()
-	. = ..()
-		ADD_TRAIT(host_mob, TRAIT_DIAGNOSTIC_HUD, "nanites")
-
-/datum/nanite_program/diaghud/disable_passive_effect()
-	. = ..()
-	REMOVE_TRAIT(host_mob, TRAIT_DIAGNOSTIC_HUD, "nanites")
