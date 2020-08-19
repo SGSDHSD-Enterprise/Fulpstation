@@ -258,7 +258,6 @@
 	program_type = /datum/nanite_program/mindshield
 	category = list("Augmentation Nanites")
 
-<<<<<<< HEAD
 	/datum/nanite_program/diaghud
 	name = "Integrated Diagnostics HUD"
 	desc = "The nanites scan nearby robots and connect to the user's optical nerve, giving them a diagnostic HUD while active."
@@ -266,8 +265,6 @@
 	program_type = /datum/nanite_program/diaghud
 	category = list("Augmentation Nanites")
 
-=======
->>>>>>> parent of 893da74e2d... Revert "Revert "Adds diagnostic HUD nanite program and A small tweak""
 ////////////////////DEFECTIVE NANITES//////////////////////////////////////
 
 /datum/design/nanites/glitch
