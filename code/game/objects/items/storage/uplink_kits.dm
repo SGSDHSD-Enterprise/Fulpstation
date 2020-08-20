@@ -121,7 +121,7 @@
 			new /obj/item/card/emag/doorjack(src) // 3 tc
 
 /obj/item/storage/box/syndicate/bundle_b/PopulateContents()
-	switch (pickweight(list( "bond" = 2, "ninja" = 1, "darklord" = 1, "white_whale_holy_grail" = 2, "mad_scientist" = 2, "bee" = 1, "mr_freeze" = 2)))
+	switch (pickweight(list( "bond" = 2, "ninja" = 1, "darklord" = 1, "white_whale_holy_grail" = 2, "mad_scientist" = 2, "bee" = 1, "mr_freeze" = 2, "stand_user" = 1)))
 		if("bond")
 			new /obj/item/gun/ballistic/automatic/pistol(src)
 			new /obj/item/suppressor(src)
@@ -196,6 +196,14 @@
 			new /obj/item/dnainjector/cryokinesis(src)
 			new /obj/item/gun/energy/temperature/security(src)
 			new /obj/item/melee/transforming/energy/sword/saber/blue(src) //see see it fits the theme bc its blue and ice is blue
+
+		if("stand_user")
+			new /obj/item/clothing/gloves/diowristbands(src)
+			new /obj/item/clothing/head/dioband(src)
+			new /obj/item/clothing/suit/diojacket(src)
+			new /obj/item/clothing/shoes/dioshoes(src)
+			new /obj/item/clothing/under/costume/diojumpsuit(src)
+			new /obj/item/storage/box/syndie_kit/guardian
 
 /obj/item/storage/box/syndicate/contract_kit
 	name = "Contract Kit"
