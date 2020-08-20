@@ -203,7 +203,7 @@
 			new /obj/item/clothing/suit/diojacket(src)
 			new /obj/item/clothing/shoes/dioshoes(src)
 			new /obj/item/clothing/under/costume/diojumpsuit(src)
-			new /obj/item/storage/box/syndie_kit/guardian
+			new /obj/item/storage/box/syndie_kit/guardian(src) //16 tc...?
 
 /obj/item/storage/box/syndicate/contract_kit
 	name = "Contract Kit"
